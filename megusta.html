@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">Network</header>
+    <h1>Your Feed</h1>
+    <main>
+        <div class="tres">
+            <div class="icon">
+                <img src="#">
+                <h2>Adrien Desplatz</h2>
+            </div>
+            <div class="primera">
+                <div id="linn">
+                    <h3>Linn O.</h3>
+                    <p>Acabo de configurar este bot de Discord, cuentenme que opinan ustedes. <a href="#">Link</a></p>
+                    <div class="likes">
+                        <p id="bot">0 like(s)</p>
+                        <button onclick="incrementarLikes()">Like</button>
+                    </div>
+                </div>
+                <div id="lina">
+                    <h3>Lina K.</h3>
+                    <p>Acabo de terminar este <a href="#">nuevo comic</a>, denle un vistazo.</p>
+                    <div class="likes">
+                        <p id="comic">0 like(s)</p>
+                        <button  onclick="incrementarLikes2()">Like</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="segunda">
+            <div id="mateo">
+                <h3>Mateo H.</h3>
+                <p> No puedo dejar de escuchar este <a href="#">álbum.</a> ¿A quién más le gusta?</p>
+                <div class="likes">
+                    <p id="album">0 like(s)</p>
+                    <button  onclick="incrementarLikes3()">Like</button>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

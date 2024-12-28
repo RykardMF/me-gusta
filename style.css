@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+.tres {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+.primera {
+    display: flex;
+    flex-direction: column;
+}
+.icon {
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h1 {
+    margin: 30px 0 30px 300px
+}
+h2 {
+    display: flex;
+    text-align: inherit;
+    align-items: baseline;
+    margin: 30px;
+    
+}
+img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-image: url("https://media.tenor.com/1cJMF-Qh8-wAAAAM/cat-smile.gif");
+    background-size: cover;
+    margin-top: 100px;
+}
+p, h3 {
+    margin: 20px;
+}
+#linn {
+    border: 1px solid black;
+    height: 200px;
+    width: 1600px;
+    margin: 10px;
+}
+#lina {
+    border: 1px solid rgb(68, 42, 42);
+    height: 200px;
+    width: 1600px;
+    margin: 10px;
+}
+#mateo {
+    border: 1px solid black;
+    height: 200px;
+    width: 1600px;
+    margin: 10px;
+}
+#segunda {
+    display: flex;
+    justify-content: flex-end;
+}
+button {
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: yellow;
+    margin: 15px;
+}
+.likes {
+    display: flex;
+    justify-content: flex-end;
+}
